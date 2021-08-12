@@ -67,6 +67,10 @@ section.modal{
     font-size: 1.5rem;
     line-height: 2rem;
   }
+  button#voltar a{
+    color:rgb(209, 54, 54);
+    text-decoration: none;
+  }
 
   footer {
     text-align: center;

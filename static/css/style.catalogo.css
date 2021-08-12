@@ -4,8 +4,10 @@ html {
   height: 100%;
 }
 body {
-  background-image:url("../img/bg.png");
+  background-color: rgb(107, 2, 2);
+  /* background-image:url("../img/bg.png"); */
   background-repeat:repeat;
+  
 /*   background-color: #000; */
   background-size: cover;
   color: #F0F3F4;
@@ -22,7 +24,7 @@ body {
 }
 
 nav {
-  background-color:transparent;
+  background-color:rgba(0, 0, 0, 0.383);
   position:fixed;
   width: 100%;
   z-index: 1;
@@ -195,7 +197,7 @@ section#catalogo{
 
 
 .gallery div img { 
-  height: 40.5vw;
+  height: 100%;
   max-width: 100%;
   position: fixed;
   right: 0;
