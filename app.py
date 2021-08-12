@@ -75,7 +75,7 @@ def logout ():
     session ['usuario_logado'] = None
     return redirect ('/login')
 
-#rota para add itens
+#rota para add itens no catalogo
 @app.route('/add', methods=['GET','POST'])
 def add():
     if request.method =='POST':
