@@ -86,7 +86,7 @@ def add():
             )
         db.session.add(guitar)
         db.session.commit()
-        return redirect('/catalogo')
+        return redirect('/adm')
 
 #rota para editar itens
 @app.route('/edit/<id>',methods=['GET','POST'])
