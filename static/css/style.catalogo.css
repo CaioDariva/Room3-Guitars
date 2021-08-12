@@ -20,12 +20,51 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-nav{
-  font-size: 2rem;
-  background-color: rgba(0, 0, 0, 0.63);
+
+nav {
+  background-color:transparent;
+  position:fixed;
+  width: 100%;
+  z-index: 1;
 }
-a {
+
+#navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+nav img#logotipo{
+width: 15%;
+}
+
+#navlinks {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 90%;    
+  padding-right: 4vw;
+  
+}
+
+nav ul li {
+  padding-right: 1.5vw;
+}
+
+nav ul li a {
   text-decoration: none;
+  font-size: larger;
+  color: whitesmoke
+}
+
+nav ul a:hover{
+color:rgb(255, 255, 255);
+  background-color: rgb(163, 20, 20);
+  padding: .2rem;
+  padding-left: .2rem;
+  padding-right: .2rem;
+  border-radius: 15px;
 }
 
 section#catalogo{
@@ -277,14 +316,7 @@ section#catalogo{
 footer {
   text-align: center;
   padding: .3rem;
-  background-color: rgba(0, 0, 0, 0.5);
-  
-  height: 40px;
   color: #fff;
   font-size: 19px;
-}
-footer{
-  position:absolute;
-  bottom:0;
-  width:100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
