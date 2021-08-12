@@ -63,10 +63,10 @@ def login():
 def auth ():
     if request.form['senha'] == '1234':
        session ['usuario_logado'] = '1234'
-       flash('Login feito com sucesso!')
+    #    flash('Login feito com sucesso!')
        return redirect('/adm')
     else:
-        flash('erro no login, tente novamente!')
+        # flash('erro no login, tente novamente!')
         return redirect ('/login')
 
 # Rota para logout
